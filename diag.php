@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// ltkftv поиск кода в файлах cfqnf
+// делаем поиск кода в файлах сайта
 function findInFiles($directory, $searchString) {
     $found = [];
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
